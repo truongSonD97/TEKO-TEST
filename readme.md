@@ -32,6 +32,16 @@ Lời nơi chương trình đi vào đầu tiền, tại đây dùng để thi�
 ### API 
 Chứa 3 thư mục chính là </br>
 1. modules : là nơi chứa các đối tượng  dữ liệu chính của hệ thống và tương tác với cơ sỡ dữ liệu mongo. </br>
-    Có 6 đối tượng chính trong Modules là : 
-        > cinemasModel 
+    Có 6 đối tượng chính trong Modules là : <br>
+        + movieModel  : đối tượng chứa các thuộc tính về  phim </br>
+        + timeCluster : đối tượng chứa các thuộc tính về xuất chiếu phim </br>
+        + ticketModel : đối tượng chứa các thuộc tính về vé xem phim </br>
+        + thirdPartyModel  : đối tượng chứa các thông tin về bên người dùng thứ 3 </br>
+        +userModel : Đối tượng chứa các thông tin liên quan tới người dùng 
+2. Route:
+    Hệ thống sẽ có 3 nhóm route chính tương ứng với 3 nhóm người dùng là admin, user và thirdParty : </br>
+    
+
+
+
 
