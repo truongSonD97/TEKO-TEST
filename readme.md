@@ -41,6 +41,17 @@ Chứa 3 thư mục chính là </br>
 2. Route:
     Hệ thống sẽ có 3 nhóm route chính tương ứng với 3 nhóm người dùng là admin, user và thirdParty : </br>
     
+    Những route user và thirdParty có thì admin cũng có thể accpet. </br>
+
+3. Controller : 
+Là nơi xử lý các request được gửi tới từ người dùng và trả về dữ liệu sau khi xử lý các tác vụ. </br>
+
+Mã trả về của hệ thống gồm một số loại chính sau : </br>
+    + 422 : Khi dữ liệu truyền vào bị lỗi
+    + 423 : Invalid token 
+    + 500 : looixo liên quan tới việc query database.
+
+
 
 
 
