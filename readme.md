@@ -27,5 +27,11 @@ Each party, create a user that connected with theme
 2. api là thư mục chưa các source liên quan tới models, controllers, và routers của hệ thống.
 
 ### index.js 
-Lời nơi chương trình đi vào đầu tiền, tại đây dùng để thiết lập một số thông số của hệ thống như PORT, link  database, khởi tạo expressJS . 
+Lời nơi chương trình đi vào đầu tiền, tại đây dùng để thiết lập một số thông số của hệ thống như PORT, link  database, khởi tạo expressJS . </br>
+
+### API 
+Chứa 3 thư mục chính là </br>
+1. modules : là nơi chứa các đối tượng  dữ liệu chính của hệ thống và tương tác với cơ sỡ dữ liệu mongo. </br>
+    Có 6 đối tượng chính trong Modules là : 
+        > cinemasModel 
 
